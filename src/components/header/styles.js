@@ -33,8 +33,8 @@ export const ContainerMenu = styled.div`
 export const Main = styled.main`
     background-color: #080808;
     width: 80%;
-    padding: 150px 100px;
-    margin: 100px;
+    padding: 150px 70px;
+    margin: 100px 0;
 `;
 
 export const Subtitle = styled.h4`

@@ -32,28 +32,27 @@ export const SubTitle = styled.h2`
 
 
 export const Container = styled.div`
+    background-color: #202020;
     width: 100%;
     height: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 10px;
     flex-direction: row;
-    background-color: #202020;
     position: relative;
     margin-bottom: 20px;
 `;
 
 export const Item = styled.div`
     width: auto;
-    max-width: 24.375rem;
+    max-width: 390px;
     height: 400px;
     object-fit: cover;
 
     img {
-        width: 100%;
-        height: auto;
-        object-fit: cover;
+        width: 360px;
+        height: 380px;
         max-width: 100%;
         filter: grayscale(100%);
 

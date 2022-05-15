@@ -11,7 +11,7 @@ export const Container = styled.div`
 export const Info = styled.div`
 
     align-items: center;
-    padding: 90px 200px;
+    padding: 90px 70px;
     font-family: "Heebo",sans-serif;
     font-size: 1rem;
     text-align: left;
