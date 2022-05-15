@@ -54,7 +54,8 @@ export const Title = styled.h2`
 export const WrapperPhoto = styled.div`
     width: 30%;
     position: relative;
-    margin: 20px ;
+    margin: 20px 90px 20px 0;
+
     align-items: center;
 `;
 
