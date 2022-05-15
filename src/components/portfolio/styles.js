@@ -41,18 +41,25 @@ export const Container = styled.div`
     flex-direction: row;
     background-color: #202020;
     position: relative;
+    margin-bottom: 20px;
 `;
 
 export const Item = styled.div`
-    width:380px; 
+    width: auto;
+    max-width: 24.375rem;
     height: 400px;
-    
+    object-fit: cover;
 
     img {
         width: 100%;
         height: auto;
         object-fit: cover;
+        max-width: 100%;
+        filter: grayscale(100%);
 
+        :hover {
+            filter: grayscale(0%);
+        }
       
     }
 `;
