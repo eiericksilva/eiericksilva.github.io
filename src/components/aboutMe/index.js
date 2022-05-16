@@ -3,9 +3,9 @@ import * as A from "./styles"
 
 const AboutMe = () => {
   return (
-    <A.Wrapper>
+    <A.Wrapper id="SobreMim">
       <A.Container>
-        <A.Info>
+        <A.Info  className="SobreMim">
           <A.ContainerTitle>
             <A.SubTitle>Desenvolvedor Front-End Jr.</A.SubTitle>
             <A.Title> Sobre Mim</A.Title>
