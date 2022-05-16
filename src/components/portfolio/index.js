@@ -2,12 +2,12 @@ import * as P from "./styles"
 
 const Portifolio = () => {
   return (
-    <P.Wrapper>
+    <P.Wrapper id="Projetos">
         <P.Header>
-            <P.Title>Portfólio</P.Title>
-            <P.SubTitle>O QUE EU TENHO FEITO</P.SubTitle>
+            <P.Title className="Title">Portfólio</P.Title>
+            <P.SubTitle className="SubTitle">O QUE EU TENHO FEITO</P.SubTitle>
         </P.Header>
-        <P.Container>
+        <P.Container className="Projetos">
                 <P.Item><img src="images/calcedit.png" alt="Calculadora" /></P.Item>
                 <P.Item><img src="images/todoedit.png" alt="ToDo List" /></P.Item>
                 <P.Item> <img src="images/controleedit.png" alt="Controle de Finanças"/></P.Item>

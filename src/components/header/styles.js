@@ -10,24 +10,42 @@ export const Wrapper = styled.div`
 export const ContainerMenu = styled.div`
     background-color: #080808;
     width: 100vw;
-    height: 100px;
+    height: 70px;
     display: flex;
-    justify-content:space-between;
+    justify-content:space-around;
     border-bottom: 1px solid #FFD1AA ;
+`;
 
-    svg {
-        width: 60px;
-        height: 60px;
-        margin: auto 30px;
-        opacity: 1;
+export const Logo = styled.h3`
+    font-family: "Heebo",sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 8px; 
+`;
+export const Menu = styled.ul`
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: auto;
+    height: auto;
+`;
 
-        &:hover {
-            cursor: pointer;
-            background-color: rgba(100, 82, 66.7, 0.5);
-            transition: 0.5s;
-        }
-        
-    }
+export const Item = styled.li`
+    padding: 10px;
+    color: white;
+    list-style: none;
+`;
+
+export const Link = styled.a`
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
 `;
 
 export const Main = styled.main`
@@ -35,13 +53,13 @@ export const Main = styled.main`
     width: 80%;
     padding: 150px 70px;
     margin: 100px 0;
+    font-family: "Heebo",sans-serif;
 `;
 
 export const Subtitle = styled.h4`
     font-size: 1.2rem;
     font-weight: 400;
-    letter-spacing: 8px;
-    
+    letter-spacing: 8px;   
 `;
 
 export const Title = styled.h2`
@@ -64,6 +82,9 @@ export const Button = styled.button`
     padding: 0 30px;
     background-color: #080808;
     border: 1px solid hsla(0,0%,40%,.8);
+        a {
+            text-decoration: none;
+        }
         
         &:hover {
             cursor: pointer;

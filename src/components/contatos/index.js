@@ -2,8 +2,8 @@ import * as C from "./styles"
 
 const Contacts = () => {
   return (
-    <C.Wrapper>
-        <C.Contacts>
+    <C.Wrapper id="Contatos">
+        <C.Contacts className="Contatos">
             <C.Title>Meus Contatos</C.Title>
             <C.Text>Se interessou? Entre em contato comigo</C.Text>
 

@@ -9,6 +9,10 @@ const GlobalStyle = createGlobalStyle`
         color: #FFFFFF;
         font-family: 'Heebo', sans-serif;
     }
+
+    html {
+        scroll-behavior: smooth;
+    }
 `;
 
 export default GlobalStyle;

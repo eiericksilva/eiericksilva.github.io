@@ -7,8 +7,8 @@ import React from 'react'
 
 export const Footer = () => {
   return (
-    <I.Wrapper>
-        <I.Container>
+    <I.Wrapper id="RedesSociais">
+        <I.Container >
             <IoLogoInstagram/>
             <AiFillLinkedin/>
             <AiFillGithub/>
