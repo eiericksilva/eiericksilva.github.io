@@ -11,7 +11,7 @@ const Header = () => {
               <H.Menu>
                 <H.Item> <H.Link href="#Inicio">INÍCIO</H.Link></H.Item>
                 <H.Item> <H.Link href="#SobreMim">SOBRE MIM</H.Link></H.Item>
-                <H.Item> <H.Link href="#Projetos">PORTFOLIO</H.Link></H.Item>
+                <H.Item> <H.Link href="#Projetos">PORTFÓLIO</H.Link></H.Item>
                 <H.Item> <H.Link href="#Contatos">CONTATOS</H.Link></H.Item>
                 <H.Item> <H.Link href="#RedesSociais">REDES SOCIAIS</H.Link></H.Item>
               </H.Menu>

@@ -45,7 +45,15 @@ export const Link = styled.a`
     background-color: transparent;
     color: white;
     font-size: 15px;
-    font-weight: 300;
+    font-weight: 100;
+
+    :hover {
+        font-weight: 600;
+        cursor: pointer;
+        color: rgba(100, 82, 66.7, 1);
+        letter-spacing: 0.2rem;
+        transition: 0.2s;
+    }
 `;
 
 export const Main = styled.main`

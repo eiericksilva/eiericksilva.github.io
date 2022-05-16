@@ -38,3 +38,30 @@ export const Text = styled.p`
     line-height: 20px;
     margin-bottom: 1.5rem;
 `;
+export const wrapperButton = styled.div`
+    display: flex;
+    width: 100%;
+    justify-content: right;
+    align-items: flex-end;
+`;
+export const Button = styled.a`
+    text-decoration: none;
+    font-family: "Oswald",sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    width: auto;
+    height: 50px;
+    letter-spacing: 1px;
+    padding: 10px 30px;
+    margin-bottom: 40px;
+    text-align: center;
+    background-color: #080808;
+    border: 1px solid hsla(0,0%,40%,.8);
+        
+        &:hover {
+            cursor: pointer;
+            background-color: rgba(100, 82, 66.7, 0.98);
+            transition: 0.5s;
+        }
+`;

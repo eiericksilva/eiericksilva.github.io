@@ -16,6 +16,13 @@ const Contacts = () => {
             <C.SubTitle>Email</C.SubTitle>
             <C.Text>ericksilvaredes@gmail.com</C.Text>
         </C.Contacts>
+        <C.wrapperButton>
+          <C.Button href="#Inicio">
+            VOLTAR PARA O TOPO
+          </C.Button>
+        </C.wrapperButton>
+        
+       
     </C.Wrapper>
   )
 }

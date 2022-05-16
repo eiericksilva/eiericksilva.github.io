@@ -7,9 +7,6 @@ import Contacts from "./components/contatos";
 import { Footer } from "./components/footer";
 import scrollreveal from "scrollreveal";
 
-
-
-
 function App() {
   useEffect(() => {
     const sr = scrollreveal({
@@ -18,6 +15,7 @@ function App() {
       distance:"500px",
       duration: 2000,
       reset: true,
+      easing: 'ease-out'
     })
     sr.reveal(
       `
@@ -27,7 +25,8 @@ function App() {
       .Title,
       .SubTitle,
       .Projetos,
-      .Contatos
+      .Contatos,
+      .ContainerIcons
       `
     )
   }, []);
