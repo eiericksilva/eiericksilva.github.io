@@ -48,13 +48,14 @@ export const Item = styled.div`
     width: auto;
     max-width: 390px;
     height: 400px;
-    object-fit: cover;
+    
 
     img {
         width: 360px;
         height: 380px;
         max-width: 100%;
         filter: grayscale(100%);
+        object-fit: cover;
 
         :hover {
             filter: grayscale(0%);
