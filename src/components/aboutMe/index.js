@@ -2,10 +2,6 @@ import * as A from "./styles"
 
 
 const AboutMe = () => {
-  const CVInvalid = () => {
-    alert("Funcionalidade indiposnível no momento.")
-  }
-
   return (
     <A.Wrapper id="SobreMim">
       <A.Container>
@@ -15,7 +11,11 @@ const AboutMe = () => {
             <A.Title> Sobre Mim</A.Title>
           </A.ContainerTitle>
           <A.Main>Olá, me chamo Erick Silva e estou cursando Análise e Desenvolvimento de Sistemas pela Faculdade Estácio de Sá. Tenho focado em me aperfeiçoar como Desenvolvedor Front-End através de alguns projetos pessoais que você pode ver aqui. Estou em busca da minha primeira oportunidade para ingressar no Mercado de Trabalho e fazer aquilo que descobri amar; resolver problemas e melhorar a experiência do usuário com as interfaces criadas através das linhas de código.</A.Main>
-          <A.Button onClick={CVInvalid}>BAIXAR CURRÍCULO</A.Button>
+          <A.Button>
+            <A.LinkPDF href="../../../public/cv/ERICKSILVA-CURRICULO.pdf" download>
+              BAIXAR CURRÍCULO
+            </A.LinkPDF>
+          </A.Button>
         </A.Info>
         <A.WrapperPhoto>
           <A.BorderPhoto>

@@ -125,5 +125,9 @@ export const Button = styled.button`
             transition: 0.5s;
         } 
 `;
+export const LinkPDF = styled.a`
+    text-decoration: none;
+    font-family: "Oswald",sans-serif;
+`;
 
 
