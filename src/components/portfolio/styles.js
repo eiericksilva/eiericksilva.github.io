@@ -17,7 +17,7 @@ export const Header = styled.div`
 export const Title = styled.div`
     color: #ddd;
     margin-bottom: 10px;
-    text-align: center; 
+    text-align: center;
 `;
 
 export const SubTitle = styled.h2`
@@ -28,6 +28,10 @@ export const SubTitle = styled.h2`
     margin: 0 0 50px;
     font-family: "Oswald",sans-serif;
     line-height: 1.2;
+    
+    @media(max-width:764px) {
+      font-size: 2rem;
+    } 
 `;
 
 

@@ -9,11 +9,16 @@ export const Wrapper = styled.div`
 
 export const ContainerMenu = styled.div`
     background-color: #080808;
-    width: 100vw;
-    height: 70px;
+    width: 100%;
+    height: auto;
     display: flex;
     justify-content:space-around;
     border-bottom: 1px solid #FFD1AA ;
+    
+    @media(max-width:764px) {
+        flex-direction: column;
+        justify-content: center;
+    }
 `;
 
 export const Logo = styled.h3`
@@ -32,12 +37,17 @@ export const Menu = styled.ul`
     align-items: center;
     width: auto;
     height: auto;
+
+    @media(max-width:764px) {
+        flex-direction: column;
+    }
 `;
 
 export const Item = styled.li`
     padding: 10px;
     color: white;
     list-style: none;
+
 `;
 
 export const Link = styled.a`
@@ -54,20 +64,40 @@ export const Link = styled.a`
         letter-spacing: 0.2rem;
         transition: 0.2s;
     }
+
+    @media(max-width:764px) {
+        font-size: 0.8rem;
+    }
 `;
 
 export const Main = styled.main`
     background-color: #080808;
-    width: 80%;
+    width: 100%;
+    height: 100%;
     padding: 150px 70px;
     margin: 100px 0;
     font-family: "Heebo",sans-serif;
+
+    @media(max-width:764px) {
+        margin-top: 30px;
+        margin-top: 80px;
+        padding: 50px 20px;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        
+    }
 `;
 
 export const Subtitle = styled.h4`
     font-size: 1.2rem;
     font-weight: 400;
-    letter-spacing: 8px;   
+    letter-spacing: 8px;  
+    
+    @media(max-width:764px) {
+        font-size:0.6rem;
+        letter-spacing: 6px;
+    } 
 `;
 
 export const Title = styled.h2`
@@ -77,6 +107,11 @@ export const Title = styled.h2`
     font-family: "Oswald",sans-serif;
     line-height: 1.2;
     margin-bottom: 30px;
+
+    @media(max-width:764px) {
+        font-size:1.2rem;
+        letter-spacing: 4px;
+    } 
 `;
 
 export const Button = styled.button`
@@ -90,6 +125,8 @@ export const Button = styled.button`
     padding: 0 30px;
     background-color: #080808;
     border: 1px solid hsla(0,0%,40%,.8);
+
+        
         a {
             text-decoration: none;
         }

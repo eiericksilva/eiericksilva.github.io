@@ -7,9 +7,17 @@ export const Wrapper = styled.div`
     padding: 50px 70px;
     display: flex;
     flex-direction: row;
+    
+    @media(max-width:764px) {
+      flex-direction: column;
+      padding: 20px 30px;
+    } 
 `;
 export const Contacts = styled.div`
     width: 40%;
+    @media(max-width:764px) {
+      width: 100%;
+    } 
 `;
 export const DivForm = styled.div`
     width: 60%;
@@ -43,6 +51,10 @@ export const wrapperButton = styled.div`
     width: 100%;
     justify-content: right;
     align-items: flex-end;
+
+    @media(max-width:764px) {
+      justify-content: center;
+    } 
 `;
 export const Button = styled.a`
     text-decoration: none;

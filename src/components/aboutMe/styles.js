@@ -1,15 +1,20 @@
 import styled from "styled-components"
 
-export const Wrapper = styled.div``;
+export const Wrapper = styled.div`
+`;
 
 export const Container = styled.div`
+    height: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     background-color: #111111;
+    
+    @media(max-width:764px) {
+      flex-direction: column;
+    } 
 `;
 export const Info = styled.div`
-
     align-items: center;
     padding: 90px 70px;
     font-family: "Heebo",sans-serif;
@@ -17,19 +22,24 @@ export const Info = styled.div`
     text-align: left;
     width: 60%;
 
+    @media(max-width:764px) {
+        align-items: flex-start;
+        padding: 30px;
+        width: 100%;
+    } 
+
 
 `;
 export const ContainerTitle = styled.div`
     font-family: "Heebo",sans-serif;
     margin-bottom: 30px;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    text-align: left;
     background-color: #111111;
 
-
+    @media(max-width:764px) {
+      margin-bottom: 10px;
+    } 
 `;
+
 
 
 export const SubTitle = styled.span`
@@ -49,14 +59,21 @@ export const Title = styled.h2`
     margin-bottom: 50px;
     margin-top: 15px;
     display: flex;
+
+    @media(max-width:764px) {
+      margin-bottom: 10px;
+    } 
 `;
 
 export const WrapperPhoto = styled.div`
     width: 30%;
     position: relative;
     margin: 20px 90px 20px 0;
-
     align-items: center;
+
+    @media(max-width:764px) {
+      width: 100%;
+    } 
 `;
 
 export const BorderPhoto = styled.div`
@@ -68,6 +85,10 @@ export const BorderPhoto = styled.div`
     position: absolute;
     display: flex;
 
+    @media(max-width:764px) {
+        height: auto;
+        position: relative;
+    } 
 `;
 
 export const Photo = styled.img`
