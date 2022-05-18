@@ -12,7 +12,7 @@ const AboutMe = () => {
           </A.ContainerTitle>
           <A.Main>Olá, me chamo Erick Silva e estou cursando Análise e Desenvolvimento de Sistemas pela Faculdade Estácio de Sá. Tenho focado em me aperfeiçoar como Desenvolvedor Front-End através de alguns projetos pessoais que você pode ver aqui. Estou em busca da minha primeira oportunidade para ingressar no Mercado de Trabalho e fazer aquilo que descobri amar; resolver problemas e melhorar a experiência do usuário com as interfaces criadas através das linhas de código.</A.Main>
           <A.Button>
-            <A.LinkPDF href="../../../public/cv/ERICKSILVA-CURRICULO.pdf" download>
+            <A.LinkPDF href="https://drive.google.com/file/d/1nM2yItu7V1SMR8bLpL6A0Aqb7CMVUR8m/view?usp=sharing" target="_blank">
               BAIXAR CURRÍCULO
             </A.LinkPDF>
           </A.Button>
