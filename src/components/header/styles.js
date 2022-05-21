@@ -8,7 +8,6 @@ export const Wrapper = styled.div`
 `;
 
 export const ContainerMenu = styled.div`
-    background-color: #080808;
     width: 100%;
     height: auto;
     display: flex;
@@ -22,7 +21,6 @@ export const ContainerMenu = styled.div`
 `;
 
 export const Logo = styled.h3`
-    font-family: "Heebo",sans-serif;
     font-weight: 900;
     font-size: 1.5rem;
     display: flex;
@@ -71,12 +69,10 @@ export const Link = styled.a`
 `;
 
 export const Main = styled.main`
-    background-color: #080808;
     width: 100%;
     height: 100%;
     padding: 150px 70px;
     margin: 100px 0;
-    font-family: "Heebo",sans-serif;
 
     @media(max-width:764px) {
         margin-top: 30px;
@@ -89,52 +85,17 @@ export const Main = styled.main`
     }
 `;
 
-export const Subtitle = styled.h4`
-    font-size: 1.2rem;
-    font-weight: 400;
-    letter-spacing: 8px;  
-    
-    @media(max-width:764px) {
-        font-size:0.6rem;
-        letter-spacing: 6px;
-    } 
-`;
-
-export const Title = styled.h2`
-    font-size: 4rem;
-    letter-spacing: 4px;
-    font-weight: 700;
-    font-family: "Oswald",sans-serif;
-    line-height: 1.2;
-    margin-bottom: 30px;
-
+export const Title = styled.h1`
     @media(max-width:764px) {
         font-size:1.2rem;
         letter-spacing: 4px;
     } 
 `;
 
-export const Button = styled.button`
-    font-family: "Oswald",sans-serif;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    width: auto;
-    height: 50px;
-    letter-spacing: 1px;
-    padding: 0 30px;
-    background-color: #080808;
-    border: 1px solid hsla(0,0%,40%,.8);
-
-        
-        a {
-            text-decoration: none;
-        }
-        
-        &:hover {
-            cursor: pointer;
-            background-color: rgba(100, 82, 66.7, 0.98);
-            transition: 0.5s;
-        }
+export const Subtitle = styled.h2` 
+    @media(max-width:764px) {
+        font-size:0.6rem;
+        letter-spacing: 6px;
+    } 
 `;
 

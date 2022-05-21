@@ -1,5 +1,6 @@
 import * as H from "./styles"
 import React from 'react'
+import { Button } from "../button/index"
 
 const Header = () => {
   return (
@@ -18,11 +19,11 @@ const Header = () => {
             <H.Main>
                 <H.Subtitle className="main">EU ME CHAMO ERICK SILVA</H.Subtitle>
                 <H.Title className="main">DESENVOLVEDOR FRONT-END</H.Title>
-                <H.Button>
-                  <a href="#Contatos">
-                    FALE COMIGO
-                  </a>
-                </H.Button>
+                <Button>
+                    <a href="#Contatos">
+                      FALE COMIGO
+                    </a>
+                </Button>
             </H.Main>
         </H.Wrapper>
     </>

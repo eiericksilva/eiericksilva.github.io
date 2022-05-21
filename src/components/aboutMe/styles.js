@@ -17,7 +17,6 @@ export const Container = styled.div`
 export const Info = styled.div`
     align-items: center;
     padding: 90px 70px;
-    font-family: "Heebo",sans-serif;
     font-size: 1rem;
     text-align: left;
     width: 60%;
@@ -31,7 +30,6 @@ export const Info = styled.div`
 
 `;
 export const ContainerTitle = styled.div`
-    font-family: "Heebo",sans-serif;
     margin-bottom: 30px;
     background-color: #111111;
 
@@ -46,13 +44,11 @@ export const SubTitle = styled.span`
     color: #ddd;
     font-weight: 600;
     margin-bottom: 10px;
-    font-family: "Heebo",sans-serif;
     line-height: 1.5;
 
 `;
 
 export const Title = styled.h2`
-    font-family: "Oswald",sans-serif;
     font-size: 36px;
     font-weight: 700;
     padding-bottom: 20px;
@@ -79,7 +75,6 @@ export const WrapperPhoto = styled.div`
 export const BorderPhoto = styled.div`
     border: 1px solid #FFD1AA;
     padding: 10px;
-    background-color: transparent;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -97,37 +92,9 @@ export const Photo = styled.img`
 `;
 
 export const Main = styled.p`
-    color: #999;
     line-height: 1.7rem;
     margin-bottom: 20px;
     color: #fff;
-    font-family: "Heebo",sans-serif;
-    font-weight: 100;
-    
-`;
-
-export const Button = styled.button`
-   font-family: "Oswald",sans-serif;
-    font-size: 1rem;
-    font-weight: 200;
-    line-height: 1.5;
-    width: auto;
-    height: 50px;
-    letter-spacing: 1px;
-    padding: 0 30px;
-    background-color: #080808;
-    border: 1px solid hsla(0,0%,40%,.8);
-    margin-top: 20px;
-        
-        &:hover {
-            cursor: pointer;
-            background-color: rgba(100, 82, 66.7, 0.98);
-            transition: 0.5s;
-        } 
-`;
-export const LinkPDF = styled.a`
-    text-decoration: none;
-    font-family: "Oswald",sans-serif;
 `;
 
 
