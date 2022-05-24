@@ -1,6 +1,16 @@
-import * as P from "./styles"
+import * as P from "./styles";
+import {motion} from 'framer-motion';
+import {useState, useEffect, useRef} from 'react';
+import images from '../../images'
+import slide from './styles2.css'
 
 const Portifolio = () => {
+  const [width, setWidth] = useState(0);
+  const carousel = useRef()
+
+  useEffect(()=>{
+    setWidth(carousel.current.scrollWidth - carousel.current.offsetWidth)
+  },[])
   return (
     <P.Wrapper id="Projetos">
         <P.Header>
@@ -8,11 +18,17 @@ const Portifolio = () => {
             <P.SubTitle className="SubTitle">O QUE EU TENHO FEITO</P.SubTitle>
         </P.Header>
         <P.Container className="Projetos">
-                <P.Item><img src="images/CalcEdit.jpeg" alt="Calculadora" /></P.Item>
-                <P.Item><img src="images/ToDoEdit.jpeg" alt="ToDo List" /></P.Item>
-                <P.Item> <img src="images/ControleEdit.jpeg" alt="Controle de Finanças"/></P.Item>
-                <P.Item> <img src="images/CepEdit.jpeg" alt="Buscador de endereço"/></P.Item>
-                <P.Item> <img src="images/NetflixEdit.jpeg" alt="Netflix"/></P.Item>
+          <motion.div ref={carousel} className="carousel" whileTap={{cursor:"grabbing"}}>
+            <motion.div   className='inner-carousel' drag="x" dragConstraints={{ right:0, left: -width}} >
+              {images.map((image)=>{
+                return (
+                  <motion.div className="item" key={image}>
+                    <img src={image} alt=""/>
+                  </motion.div>
+                )  
+              })}
+            </motion.div>
+          </motion.div>
         </P.Container>
     </P.Wrapper>
   )

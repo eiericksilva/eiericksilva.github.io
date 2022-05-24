@@ -48,7 +48,7 @@ export const Container = styled.div`
     margin-bottom: 20px;
 `;
 
-export const Item = styled.div`
+/* export const Item = styled.div`
     width: auto;
     max-width: 390px;
     height: 400px;
@@ -68,6 +68,6 @@ export const Item = styled.div`
     }
 `;
 
-
+ */
 
 
