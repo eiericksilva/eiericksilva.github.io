@@ -2,7 +2,7 @@ import * as P from "./styles";
 import {motion} from 'framer-motion';
 import {useState, useEffect, useRef} from 'react';
 import images from '../../images'
-import slide from './styles2.css'
+import slide from './slide.css'
 
 const Portifolio = () => {
   const [width, setWidth] = useState(0);
