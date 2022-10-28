@@ -20,7 +20,7 @@ const AboutMe = () => {
         </A.Info>
         <A.WrapperPhoto>
           <A.BorderPhoto>
-            <A.Photo src="/images/fotoPessoalEdit.jpeg"/>
+            <A.Photo src="https://drive.google.com/file/d/1lYkW5gskz6PJMtLgU4Y6p1qTX-f8MUdA/view?usp=sharing"/>
           </A.BorderPhoto>
         </A.WrapperPhoto>
       </A.Container>
