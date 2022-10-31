@@ -12,7 +12,7 @@ const Contacts = () => {
             <C.Text>Pingo D'Água, Minas Gerais - Brasil</C.Text>
 
             <C.SubTitle>Telefone</C.SubTitle>
-            <C.Text>027.99856-0967</C.Text>
+            <C.Text>033.99950-1882</C.Text>
 
             <C.SubTitle>Email</C.SubTitle>
             <C.Text>ericksilvaredes@gmail.com</C.Text>
