@@ -4,7 +4,7 @@ import styled from "styled-components"
 export const Wrapper = styled.div`
     width: 100%;
     height: 713px;
-    background-color: #080808;
+    background-color: #0a0a12;
 `;
 
 export const ContainerMenu = styled.div`
@@ -21,7 +21,7 @@ export const ContainerMenu = styled.div`
 `;
 
 export const Logo = styled.h3`
-    font-weight: 900;
+    font-family: 'Great Vibes', cursive;
     font-size: 1.5rem;
     display: flex;
     justify-content: center;
@@ -29,6 +29,7 @@ export const Logo = styled.h3`
     letter-spacing: 8px; 
 `;
 export const Menu = styled.ul`
+    
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -45,10 +46,11 @@ export const Item = styled.li`
     padding: 10px;
     color: white;
     list-style: none;
-
-`;
+    
+    `;
 
 export const Link = styled.a`
+    
     text-decoration: none;
     background-color: transparent;
     color: white;
@@ -58,9 +60,9 @@ export const Link = styled.a`
     :hover {
         font-weight: 600;
         cursor: pointer;
-        color: rgba(100, 82, 66.7, 1);
-        letter-spacing: 0.2rem;
-        transition: 0.2s;
+        color: #fffafa;
+        letter-spacing: .1rem;
+        transition: .1s;
     }
 
     @media(max-width:764px) {

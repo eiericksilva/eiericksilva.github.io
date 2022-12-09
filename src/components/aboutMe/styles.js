@@ -8,7 +8,7 @@ export const Container = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: #111111;
+    background-color: #191d3a;
     
     @media(max-width:764px) {
       flex-direction: column;
@@ -31,7 +31,7 @@ export const Info = styled.div`
 `;
 export const ContainerTitle = styled.div`
     margin-bottom: 30px;
-    background-color: #111111;
+    background-color: #191d3a;
 
     @media(max-width:764px) {
       margin-bottom: 10px;

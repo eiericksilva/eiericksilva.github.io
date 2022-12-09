@@ -7,7 +7,7 @@ const Header = () => {
     <>
         <H.Wrapper id="Inicio">
             <H.ContainerMenu>
-                <H.Logo className="logo"> &lt;ERICK SILVA/&gt; </H.Logo>
+                <H.Logo className="logo"> &lt; Erick Silva /&gt; </H.Logo>
                 <H.Menu>
                   <H.Item> <H.Link href="#Inicio">INÍCIO</H.Link></H.Item>
                   <H.Item> <H.Link href="#SobreMim">SOBRE MIM</H.Link></H.Item>
