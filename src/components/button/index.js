@@ -10,7 +10,6 @@ export const Button = styled.button`
   background-color: #fffafa;
   border: 1px solid hsla(0, 0%, 40%, 0.8);
   margin-top: 20px;
-
   a {
     color: #091226;
     text-decoration: none;
@@ -29,7 +28,7 @@ export const Button = styled.button`
     }
   }
 
-  &::after {
+  /*   &::after {
     content: "";
     position: absolute;
     border: 1px solid #ffffff;
@@ -37,5 +36,5 @@ export const Button = styled.button`
     height: calc(100% + 10px);
     top: -6px;
     right: -6px;
-  }
+  } */
 `;
