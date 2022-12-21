@@ -1,6 +1,7 @@
 import * as H from "./styles";
 import React from "react";
 import { Button } from "../button/index";
+import react from "../../assets/images/react.png";
 
 const Header = () => {
   return (
@@ -32,6 +33,7 @@ const Header = () => {
           <Button>
             <a href="#Contatos">FALE COMIGO</a>
           </Button>
+          <img src={react} alt="Imagem react" />
         </H.Main>
       </H.Wrapper>
     </>

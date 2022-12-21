@@ -71,6 +71,16 @@ export const Main = styled.main`
   height: 100%;
   padding: 150px 70px;
   margin: 100px 0;
+  position: relative;
+
+  img {
+    position: absolute;
+    opacity: 10%;
+    right: 50px;
+    top: -100px;
+    width: 600px;
+    height: 600px;
+  }
 
   @media (max-width: 764px) {
     margin-top: 30px;
