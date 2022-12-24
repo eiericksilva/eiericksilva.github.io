@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   width: 80%;
-  margin: 0 auto;
+  margin: 20px auto;
   height: auto;
   padding: 70px;
   background-color: rgb(10, 10, 18);
@@ -21,7 +21,7 @@ export const Header = styled.header`
     color: pink;
   }
   h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     margin: 5px 0;
 `;
 export const Info = styled.div`
@@ -45,4 +45,10 @@ export const Info = styled.div`
       }
     }
   }
+`;
+export const ContainerButton = styled.div`
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  gap: 20px;
 `;

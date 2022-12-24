@@ -10,21 +10,23 @@ export const Button = styled.button`
   background-color: #fffafa;
   border: 1px solid hsla(0, 0%, 40%, 0.8);
   margin-top: 20px;
+  color: #191d3a;
   a {
-    color: #091226;
     text-decoration: none;
     font-size: 1rem;
     line-height: 1.5;
+    color: #191d3a;
   }
 
   &:hover {
     cursor: pointer;
-    background-color: #191d3a;
-    transition: 0.2s;
+    background-color: #0d98dd;
+    transition: 0.3s;
+    color: white;
 
     a {
-      color: #fffafa;
-      transition: 0.2s;
+      color: #ffffff;
+      transition: 0.3s;
     }
   }
 

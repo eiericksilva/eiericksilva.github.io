@@ -1,42 +1,50 @@
 import * as P from "./styles";
-import { motion } from "framer-motion";
-import { useState, useEffect, useRef } from "react";
-import { images } from "../../images";
-import "./slide.css";
+import CardRepo from "../cardRepo/index";
 
+/* title, description, languages, technologies, libs  */
 const Portifolio = () => {
-  const [width, setWidth] = useState(0);
-  const carousel = useRef();
+  const projects = {
+    project1: {
+      languages: ["Javascript"],
+      technologies: ["ReactJS"],
+      libs: ["styled-components"],
+    },
+    project2: {
+      languages: ["Javascript"],
+      technologies: ["ReactJS"],
+      libs: ["axios", "styled-components"],
+    },
+    project3: {
+      languages: ["Javascript"],
+      technologies: ["ReactJS"],
+      libs: ["fetchapi", "context-api", "localStorage"],
+    },
+  };
 
-  useEffect(() => {
-    setWidth(carousel.current.scrollWidth - carousel.current.offsetWidth);
-  }, []);
   return (
     <P.Wrapper id="Projetos">
-      <P.Header>
-        <P.SubTitle className="SubTitle">PROJETOS</P.SubTitle>
-      </P.Header>
-      <P.Container className="Projetos">
-        <motion.div
-          ref={carousel}
-          className="carousel"
-          whileTap={{ cursor: "grabbing" }}
-        >
-          <motion.div
-            className="inner-carousel"
-            drag="x"
-            dragConstraints={{ right: 0, left: -width }}
-          >
-            {images.map((image) => {
-              return (
-                <motion.div className="item" key={image}>
-                  <img src={image} alt="" />
-                </motion.div>
-              );
-            })}
-          </motion.div>
-        </motion.div>
-      </P.Container>
+      <h1 className="title">Projetos</h1>
+      <CardRepo
+        title="Calculadora ReactJS"
+        description="Projeto de uma calculadora desenvolvido durante o Bootcamp da DIO (Digital Innovation One"
+        languages={projects.project1.languages}
+        technologies={projects.project1.technologies}
+        libs={projects.project1.libs}
+      />
+      <CardRepo
+        title="wiki-github"
+        description="Projeto de uma wiki desenvolvido durante o Bootcamp da DIO (Digital Innovation One)"
+        languages={projects.project2.languages}
+        technologies={projects.project2.technologies}
+        libs={projects.project2.libs}
+      />
+      <CardRepo
+        title="pokeapi"
+        description="Projeto realizado para consumo de API e criação da interface"
+        languages={projects.project3.languages}
+        technologies={projects.project3.technologies}
+        libs={projects.project3.libs}
+      />
     </P.Wrapper>
   );
 };

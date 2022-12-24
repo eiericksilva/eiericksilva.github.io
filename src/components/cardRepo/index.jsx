@@ -1,35 +1,44 @@
 import React from "react";
-import { Container, Header, Info } from "./styles";
+import { Container, Header, Info, ContainerButton } from "./styles";
+import { Button } from "../button/index";
 
-const CardRepo = () => {
+const CardRepo = ({ title, description, languages, technologies, libs }) => {
   return (
     <Container>
       <Header>
-        <h1>wiki-github</h1>
-        <p>Projeto desenvolvido durante Bootcamp da Digital Inovation One</p>
+        <h1>{title}</h1>
+        <p>{description}</p>
       </Header>
       <Info>
         <div>
           <h2>Linguagens:</h2>
-          <ul>
-            <li>Javascript</li>
-          </ul>
+          {languages.map((lang, index) => (
+            <ul key={index}>
+              <li>{lang}</li>
+            </ul>
+          ))}
         </div>
         <div>
           <h2>Tecnologias:</h2>
           <ul>
-            <li>ReactJS</li>
+            {technologies.map((tech) => (
+              <li>{tech}</li>
+            ))}
           </ul>
         </div>
         <div>
           <h2>Bibliotecas:</h2>
           <ul>
-            <li>Styled Components</li>
-            <li>React hook forms</li>
-            <li>Context API</li>
+            {libs.map((lib) => (
+              <li>{lib}</li>
+            ))}
           </ul>
         </div>
       </Info>
+      <ContainerButton>
+        <Button>Acessar Repo</Button>
+        <Button>Ver Projeto</Button>
+      </ContainerButton>
     </Container>
   );
 };
