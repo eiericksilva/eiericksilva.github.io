@@ -1,8 +1,14 @@
 import React from "react";
-import { Container, Header, Info, ContainerButton } from "./styles";
-import { Button } from "../button/index";
+import { Container, Header, Info } from "./styles";
 
-const CardRepo = ({ title, description, languages, technologies, libs }) => {
+const CardRepo = ({
+  title,
+  description,
+  languages,
+  technologies,
+  libs,
+  children,
+}) => {
   return (
     <Container>
       <Header>
@@ -35,10 +41,7 @@ const CardRepo = ({ title, description, languages, technologies, libs }) => {
           </ul>
         </div>
       </Info>
-      <ContainerButton>
-        <Button>Acessar Repo</Button>
-        <Button>Ver Projeto</Button>
-      </ContainerButton>
+      {children}
     </Container>
   );
 };

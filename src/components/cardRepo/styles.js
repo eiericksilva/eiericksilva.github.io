@@ -46,9 +46,3 @@ export const Info = styled.div`
     }
   }
 `;
-export const ContainerButton = styled.div`
-  width: 100%;
-  display: flex;
-  justify-content: start;
-  gap: 20px;
-`;

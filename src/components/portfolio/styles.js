@@ -12,3 +12,10 @@ export const Wrapper = styled.div`
     padding-bottom: 20px;
   }
 `;
+
+export const ContainerButton = styled.div`
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  gap: 20px;
+`;
