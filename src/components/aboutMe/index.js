@@ -1,5 +1,6 @@
 import * as A from "./styles";
 import { Button } from "../button/index";
+import FotoPerfil from "../../assets/images/fotoPerfil.jpg";
 
 const AboutMe = () => {
   return (
@@ -31,7 +32,7 @@ const AboutMe = () => {
         </A.Info>
         <A.WrapperPhoto>
           <A.BorderPhoto>
-            <A.Photo src="/images/fotoPerfil.jpg" />
+            <A.Photo src={FotoPerfil} />
           </A.BorderPhoto>
         </A.WrapperPhoto>
       </A.Container>
