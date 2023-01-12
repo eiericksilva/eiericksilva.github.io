@@ -19,6 +19,17 @@ const Portifolio = () => {
       technologies: ["ReactJS"],
       libs: ["fetchapi", "context-api", "localStorage"],
     },
+    project4: {
+      languages: ["Javascript"],
+      technologies: ["ReactJS"],
+      libs: [
+        "ContextAPI",
+        "Styled-Components",
+        "SCSS",
+        "Firebase",
+        "React Router DOM",
+      ],
+    },
   };
 
   return (
@@ -63,6 +74,21 @@ const Portifolio = () => {
       >
         <a
           href="https://pokeapi-topaz-seven.vercel.app/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <Button>Veja o Projeto</Button>
+        </a>
+      </CardRepo>
+      <CardRepo
+        title="Crwn-Clothing - Ecommerce "
+        description="Projeto realizado durante uma seção do curso Zero To Mastery-ZTM"
+        languages={projects.project4.languages}
+        technologies={projects.project4.technologies}
+        libs={projects.project4.libs}
+      >
+        <a
+          href="https://crwn-clothing-zeta-sage.vercel.app/"
           target="_blank"
           rel="noreferrer"
         >
