@@ -1,6 +1,7 @@
 import * as A from "./styles";
 import { Button } from "../button/index";
 import FotoPerfil from "../../assets/images/fotoPerfil.jpg";
+import Resume from "../../assets/resume/CV_ERICKSILVA.pdf";
 
 const AboutMe = () => {
   return (
@@ -21,11 +22,7 @@ const AboutMe = () => {
           </A.Main>
 
           <Button>
-            <a
-              href="https://drive.google.com/file/d/1qvbowVYDqnXZguF-TduByNURlw1z2x4L/view?usp=share_link"
-              target={"_blank"}
-              rel="noreferrer"
-            >
+            <a download href={Resume} rel="noreferrer">
               DOWNLOAD CV
             </a>
           </Button>
