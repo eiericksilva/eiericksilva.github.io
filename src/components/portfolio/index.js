@@ -88,7 +88,7 @@ const Portifolio = () => {
         libs={projects.project4.libs}
       >
         <a
-          href="https://crwn-clothing-zeta-sage.vercel.app/"
+          href="https://creative-bublanina-c7818b.netlify.app/"
           target="_blank"
           rel="noreferrer"
         >
