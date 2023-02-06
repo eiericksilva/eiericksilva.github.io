@@ -1,6 +1,6 @@
 import React from "react";
 import GlobalStyle from "./css/global";
-import Header from "./components/Header";
+import Header from "./components/Header/index";
 import AboutMe from "./components/AboutMe/index";
 import Portifolio from "./components/Portfolio";
 import Contacts from "./components/Contacts";
