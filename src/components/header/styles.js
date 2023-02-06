@@ -2,13 +2,15 @@ import styled from "styled-components";
 
 export const Wrapper = styled.div`
   width: 100%;
+  min-width: 1170px;
   height: 713px;
   background-color: #0a0a12;
 `;
 
 export const ContainerMenu = styled.div`
-  width: 100%;
-  height: auto;
+  width: 100vw;
+  min-width: 1170px;
+  height: 70px;
   display: flex;
   justify-content: space-around;
   border-bottom: 1px solid #ffd1aa;
@@ -25,7 +27,7 @@ export const Logo = styled.h3`
   display: flex;
   justify-content: center;
   align-items: center;
-  letter-spacing: 8px;
+  letter-spacing: 0.8em;
 `;
 export const Menu = styled.ul`
   display: flex;
@@ -52,14 +54,13 @@ export const Link = styled.a`
   color: white;
   font-size: 1em;
   font-weight: 300;
-  padding: 3px 10px;
+  padding: 10px 20px;
 
   &:hover {
     cursor: pointer;
-    background-color: #ffffff;
+    background-color: #ffd1aa;
     color: #000000;
-    transition: ease-in 0.4s;
-    border-radius: 20px;
+    transition: 0.3s;
   }
   @media (max-width: 764px) {
     font-size: 0.8rem;

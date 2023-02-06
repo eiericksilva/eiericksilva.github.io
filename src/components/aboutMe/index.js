@@ -1,5 +1,5 @@
 import * as A from "./styles";
-import { Button } from "../button/index";
+import { Button } from "../Button";
 import FotoPerfil from "../../assets/images/fotoPerfil.jpg";
 import Resume from "../../assets/resume/CV_ERICKSILVA.pdf";
 
@@ -15,10 +15,10 @@ const AboutMe = () => {
             Olá, me chamo Erick Silva e estou cursando Análise e Desenvolvimento
             de Sistemas pela Faculdade Estácio de Sá. Tenho focado em me
             aperfeiçoar como Desenvolvedor Front-End através de alguns projetos
-            pessoais que você pode ver aqui. Estou em busca da minha primeira
-            oportunidade para ingressar no Mercado de Trabalho e fazer aquilo
-            que descobri amar; resolver problemas e melhorar a experiência do
-            usuário com as interfaces criadas através das linhas de código.
+            pessoais que você pode ver aqui. Sou uma pessoa organizada e gosto
+            de trabalhar em equipe, podendo assim colaborar para a resolução de
+            problemas durante o desenvolvimento de sistemas. Me coloco a
+            disposição para mais informações.
           </A.Main>
 
           <Button>

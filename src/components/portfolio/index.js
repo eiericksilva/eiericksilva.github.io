@@ -1,6 +1,6 @@
 import * as P from "./styles";
-import CardRepo from "../cardRepo/index";
-import { Button } from "../button";
+import CardRepositories from "../CardRepositories";
+import { Button } from "../Button";
 
 const Portifolio = () => {
   const projects = {
@@ -35,7 +35,7 @@ const Portifolio = () => {
   return (
     <P.Wrapper id="Projetos">
       <h1 className="title">Projetos</h1>
-      <CardRepo
+      <CardRepositories
         title="Calculadora ReactJS"
         description="Projeto de uma calculadora desenvolvido durante o Bootcamp da DIO (Digital Innovation One"
         languages={projects.project1.languages}
@@ -49,8 +49,8 @@ const Portifolio = () => {
         >
           <Button>Veja o Projeto</Button>
         </a>
-      </CardRepo>
-      <CardRepo
+      </CardRepositories>
+      <CardRepositories
         title="wiki-github"
         description="Projeto de uma wiki desenvolvido durante o Bootcamp da DIO (Digital Innovation One)"
         languages={projects.project2.languages}
@@ -64,8 +64,8 @@ const Portifolio = () => {
         >
           <Button>Veja o Projeto</Button>
         </a>
-      </CardRepo>
-      <CardRepo
+      </CardRepositories>
+      <CardRepositories
         title="pokeapi"
         description="Projeto realizado para consumo de API e criação da interface"
         languages={projects.project3.languages}
@@ -79,8 +79,8 @@ const Portifolio = () => {
         >
           <Button>Veja o Projeto</Button>
         </a>
-      </CardRepo>
-      <CardRepo
+      </CardRepositories>
+      <CardRepositories
         title="Crwn-Clothing - Ecommerce "
         description="Projeto realizado durante uma seção do curso Zero To Mastery-ZTM"
         languages={projects.project4.languages}
@@ -94,7 +94,7 @@ const Portifolio = () => {
         >
           <Button>Veja o Projeto</Button>
         </a>
-      </CardRepo>
+      </CardRepositories>
     </P.Wrapper>
   );
 };

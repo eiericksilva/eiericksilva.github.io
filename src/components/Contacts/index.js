@@ -1,5 +1,5 @@
 import * as C from "./styles";
-import { Button } from "../button/index";
+import { Button } from "../Button";
 
 const Contacts = () => {
   return (

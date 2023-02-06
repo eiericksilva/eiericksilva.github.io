@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Header, Info } from "./styles";
 
-const CardRepo = ({
+const CardRepositories = ({
   title,
   description,
   languages,
@@ -46,4 +46,4 @@ const CardRepo = ({
   );
 };
 
-export default CardRepo;
+export default CardRepositories;

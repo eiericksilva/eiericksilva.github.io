@@ -20,23 +20,8 @@ export const Button = styled.button`
 
   &:hover {
     cursor: pointer;
-    background-color: #0d98dd;
     transition: 0.3s;
-    color: white;
-
-    a {
-      color: #ffffff;
-      transition: 0.3s;
-    }
+    background-color: #ffd1aa;
+    color: #000000;
   }
-
-  /*   &::after {
-    content: "";
-    position: absolute;
-    border: 1px solid #ffffff;
-    width: calc(100% + 10px);
-    height: calc(100% + 10px);
-    top: -6px;
-    right: -6px;
-  } */
 `;

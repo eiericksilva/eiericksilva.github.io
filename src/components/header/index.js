@@ -1,6 +1,5 @@
 import * as H from "./styles";
-import React from "react";
-import { Button } from "../button/index";
+import { Button } from "../Button";
 import react from "../../assets/images/react.png";
 
 const Header = () => {
