@@ -11,7 +11,7 @@ export const Container = styled.div`
   justify-content: space-around;
   background-color: #191d3a;
 
-  @media (max-width: 764px) {
+  @media (max-width: 768px) {
     flex-direction: column;
   }
 `;
@@ -22,7 +22,7 @@ export const Info = styled.div`
   text-align: left;
   width: 60%;
 
-  @media (max-width: 764px) {
+  @media (max-width: 768px) {
     align-items: flex-start;
     padding: 30px;
     width: 100%;
@@ -32,7 +32,7 @@ export const ContainerTitle = styled.div`
   margin-bottom: 30px;
   background-color: #191d3a;
 
-  @media (max-width: 764px) {
+  @media (max-width: 768px) {
     margin-bottom: 10px;
   }
 `;
@@ -52,7 +52,7 @@ export const Title = styled.h2`
   margin-top: 15px;
   display: flex;
 
-  @media (max-width: 764px) {
+  @media (max-width: 768px) {
     margin-bottom: 10px;
   }
 `;
@@ -63,9 +63,10 @@ export const WrapperPhoto = styled.div`
   margin: 20px 90px 20px 0;
   align-items: center;
 
-  @media (max-width: 764px) {
-    width: 70%;
+  @media (max-width: 768px) {
+    width: 50%;
     margin: 0 auto;
+    margin-bottom: 30px;
   }
 `;
 
@@ -77,7 +78,7 @@ export const BorderPhoto = styled.div`
   position: absolute;
   display: flex;
 
-  @media (max-width: 764px) {
+  @media (max-width: 768px) {
     height: auto;
     position: relative;
   }
@@ -92,4 +93,8 @@ export const Main = styled.p`
   line-height: 1.7rem;
   margin-bottom: 20px;
   color: #fff;
+
+  @media (max-width: 768px) {
+    font-size: 1.5em;
+  }
 `;

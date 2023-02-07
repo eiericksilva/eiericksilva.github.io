@@ -12,6 +12,11 @@ const GlobalStyle = createGlobalStyle`
 
     html {
         scroll-behavior: smooth;
+        width: 100%;
+    }
+
+    body {
+        width: 100%;
     }
 
     h1 {

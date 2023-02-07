@@ -9,14 +9,14 @@ export const Wrapper = styled.div`
   display: flex;
   flex-direction: row;
 
-  @media (max-width: 764px) {
+  @media (max-width: 768px) {
     flex-direction: column;
     padding: 20px 30px;
   }
 `;
 export const Contacts = styled.div`
   width: 40%;
-  @media (max-width: 764px) {
+  @media (max-width: 768px) {
     width: 100%;
   }
 `;
@@ -53,7 +53,7 @@ export const wrapperButton = styled.div`
   justify-content: right;
   align-items: flex-end;
 
-  @media (max-width: 764px) {
+  @media (max-width: 768px) {
     justify-content: center;
   }
 `;
