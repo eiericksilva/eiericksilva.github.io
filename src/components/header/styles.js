@@ -38,6 +38,10 @@ export const Logo = styled.h3`
   justify-content: center;
   align-items: center;
   letter-spacing: 0.5em;
+
+  @media (max-width: 400px) {
+    font-size: 0.8rem;
+  }
 `;
 export const Menu = styled.ul`
   display: flex;

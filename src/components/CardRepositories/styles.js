@@ -10,12 +10,15 @@ export const Container = styled.div`
   &:hover {
     cursor: pointer;
   }
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 `;
 export const Header = styled.header`
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
-  }
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
   p {
     font-size: 1.2rem;
     color: pink;
@@ -23,10 +26,21 @@ export const Header = styled.header`
   h1 {
     font-size: 2rem;
     margin: 5px 0;
+  }
 `;
 export const Info = styled.div`
   display: flex;
   justify-content: space-around;
+  width: 90%;
+
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+
+    div {
+      margin-bottom: 10px;
+    }
+  }
 
   div {
     display: flex;

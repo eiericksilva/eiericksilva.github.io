@@ -9,7 +9,6 @@ const GlobalStyle = createGlobalStyle`
         color: #FFFFFF;
         font-family: 'Heebo', sans-serif;
     }
-
     html {
         scroll-behavior: smooth;
         width: 100%;
