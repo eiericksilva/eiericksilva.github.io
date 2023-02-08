@@ -34,7 +34,7 @@ const Portifolio = () => {
 
   return (
     <P.Wrapper id="Projetos">
-      <h1 className="title">Projetos</h1>
+      <h2 className="title">Projetos</h2>
       <CardRepositories
         title="Calculadora ReactJS"
         description="Projeto de uma calculadora desenvolvido durante o Bootcamp da DIO (Digital Innovation One"
@@ -42,13 +42,15 @@ const Portifolio = () => {
         technologies={projects.project1.technologies}
         libs={projects.project1.libs}
       >
-        <a
-          href="https://calc-react-nu.vercel.app/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <Button>Veja o Projeto</Button>
-        </a>
+        <Button>
+          <a
+            href="https://calc-react-nu.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Veja o Projeto
+          </a>
+        </Button>
       </CardRepositories>
       <CardRepositories
         title="wiki-github"
@@ -57,13 +59,15 @@ const Portifolio = () => {
         technologies={projects.project2.technologies}
         libs={projects.project2.libs}
       >
-        <a
-          href="https://wiki-github-inky.vercel.app/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <Button>Veja o Projeto</Button>
-        </a>
+        <Button>
+          <a
+            href="https://wiki-github-inky.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Veja o Projeto
+          </a>
+        </Button>
       </CardRepositories>
       <CardRepositories
         title="pokeapi"
@@ -72,13 +76,15 @@ const Portifolio = () => {
         technologies={projects.project3.technologies}
         libs={projects.project3.libs}
       >
-        <a
-          href="https://pokeapi-topaz-seven.vercel.app/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <Button>Veja o Projeto</Button>
-        </a>
+        <Button>
+          <a
+            href="https://pokeapi-topaz-seven.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Veja o Projeto
+          </a>
+        </Button>
       </CardRepositories>
       <CardRepositories
         title="Crwn-Clothing - Ecommerce "
@@ -87,13 +93,15 @@ const Portifolio = () => {
         technologies={projects.project4.technologies}
         libs={projects.project4.libs}
       >
-        <a
-          href="https://creative-bublanina-c7818b.netlify.app/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <Button>Veja o Projeto</Button>
-        </a>
+        <Button>
+          <a
+            href="https://creative-bublanina-c7818b.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Veja o Projeto
+          </a>
+        </Button>
       </CardRepositories>
     </P.Wrapper>
   );

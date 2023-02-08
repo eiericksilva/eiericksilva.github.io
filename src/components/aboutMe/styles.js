@@ -1,8 +1,6 @@
 import styled from "styled-components";
 
-export const Wrapper = styled.div`
-  min-width: 1170px;
-`;
+export const Wrapper = styled.div``;
 
 export const Container = styled.div`
   height: auto;
@@ -64,7 +62,7 @@ export const WrapperPhoto = styled.div`
   align-items: center;
 
   @media (max-width: 768px) {
-    width: 50%;
+    width: 70%;
     margin: 0 auto;
     margin-bottom: 30px;
   }
@@ -93,8 +91,4 @@ export const Main = styled.p`
   line-height: 1.7rem;
   margin-bottom: 20px;
   color: #fff;
-
-  @media (max-width: 768px) {
-    font-size: 1.5em;
-  }
 `;

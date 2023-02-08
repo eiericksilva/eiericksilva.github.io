@@ -14,10 +14,6 @@ const GlobalStyle = createGlobalStyle`
         width: 100%;
     }
 
-    body {
-        width: 100%;
-    }
-
     h1 {
         font-size: 4rem;
         letter-spacing: 4px;

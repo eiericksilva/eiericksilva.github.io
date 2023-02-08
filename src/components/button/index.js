@@ -8,9 +8,10 @@ export const Button = styled.button`
   letter-spacing: 1px;
   padding: 0 30px;
   background-color: #fffafa;
-  border: 1px solid hsla(0, 0%, 40%, 0.8);
   margin-top: 20px;
-  color: #191d3a;
+  border-radius: 15px;
+  border: none;
+
   a {
     text-decoration: none;
     font-size: 1rem;

@@ -2,14 +2,12 @@ import styled from "styled-components";
 
 export const Wrapper = styled.div`
   width: 100%;
-  min-width: 1170px;
   height: 713px;
   background-color: #0a0a12;
 `;
 
 export const ContainerMenu = styled.div`
   width: 100%;
-  min-width: 1170px;
   height: 70px;
   display: flex;
   justify-content: space-around;
@@ -20,8 +18,8 @@ export const ContainerMenu = styled.div`
     display: none;
   }
 
-  @media (max-width: 900px) {
-    > .menu {
+  @media (max-width: 960px) {
+    .menu {
       display: none;
     }
 
@@ -50,10 +48,6 @@ export const Menu = styled.ul`
   align-items: center;
   width: auto;
   height: auto;
-
-  @media (max-width: 768px) {
-    flex-direction: column;
-  }
 `;
 
 export const Item = styled.li`
