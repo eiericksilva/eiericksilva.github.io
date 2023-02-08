@@ -16,7 +16,7 @@ export const Container = styled.div`
   opacity: 0;
   pointer-events: none;
 
-  background-color: #0a0a12c6;
+  background-color: rgb(10 10 18 / 98%);
 
   svg {
     cursor: pointer;
