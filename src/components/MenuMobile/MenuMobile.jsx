@@ -4,14 +4,11 @@ import { AiOutlineClose } from "react-icons/ai";
 const MenuMobile = ({ menuIsVisible, setMenuIsVisible }) => {
   useEffect(() => {
     document.body.style.overflowY = menuIsVisible ? "hidden" : "auto";
-    setTimeout(() => {
-      setMenuIsVisible(false);
-    }, 10000);
   }, [menuIsVisible, setMenuIsVisible]);
   return (
     <Container isVisible={menuIsVisible}>
       <AiOutlineClose size={25} onClick={() => setMenuIsVisible(false)} />
-      <nav>
+      <nav onClick={() => setMenuIsVisible(false)}>
         <a href="#Inicio">INÍCIO</a>
         <a href="#SobreMim">SOBRE MIM</a>
         <a href="#Projetos">PORTFÓLIO</a>
