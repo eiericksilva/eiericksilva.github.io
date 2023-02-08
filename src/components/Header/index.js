@@ -2,14 +2,22 @@ import * as H from "./styles";
 import { Button } from "../Button";
 import react from "../../assets/images/react.png";
 import { AiOutlineMenu } from "react-icons/ai";
+import { useState } from "react";
+import MenuMobile from "../MenuMobile/MenuMobile";
 
 const Header = () => {
+  const [menuIsVisible, setMenuIsVisible] = useState(false);
   return (
     <>
       <H.Wrapper id="Inicio">
+        <MenuMobile
+          menuIsVisible={menuIsVisible}
+          setMenuIsVisible={setMenuIsVisible}
+        />
         <H.ContainerMenu>
           <H.Logo className="logo"> &lt; Erick Silva /&gt; </H.Logo>
-          <AiOutlineMenu size={25} />
+          <AiOutlineMenu size={25} onClick={() => setMenuIsVisible(true)} />
+
           <H.Menu className="menu">
             <H.Item>
               <H.Link href="#Inicio">INÍCIO</H.Link>

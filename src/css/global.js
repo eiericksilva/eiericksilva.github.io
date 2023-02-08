@@ -33,6 +33,10 @@ const GlobalStyle = createGlobalStyle`
     p {
         font-weight: 100;
     }
+
+    a {
+        text-decoration: none;
+    }
 `;
 
 export default GlobalStyle;
