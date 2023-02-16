@@ -1,5 +1,12 @@
 # 👨🏾‍💻 Portfólio
 
-## Erick Silva, Desenvolvedor Frontend Jr.
+## Erick Silva, Desenvolvedor ReactJS
 
-#### Projeto pessoal onde vou atualizando gradualmente à medida que eu aprimoro meus conhecimentos de programção.  
+Projeto pessoal onde atualizo gradualmente à medida que eu aprimoro meus conhecimentos dentro do JavaScript/ReactJS.
+
+## Tecnologias utilizadas
+
+    - Javascript
+    - ReactJS
+    - React Icons
+    - Styled Components
