@@ -19,15 +19,18 @@ const Portifolio = () => {
       technologies: ["ReactJS"],
       libs: ["fetchapi", "context-api", "localStorage"],
     },
+
     project4: {
       languages: ["Javascript"],
       technologies: ["ReactJS"],
       libs: [
-        "ContextAPI",
+        "React hook form",
+        "Yup",
         "Styled-Components",
-        "SCSS",
-        "Firebase",
-        "React Router DOM",
+        "Swiper",
+        "MaterialUI",
+        "React Awesome Reveal",
+        "Vite",
       ],
     },
   };
@@ -87,18 +90,14 @@ const Portifolio = () => {
         </Button>
       </CardRepositories>
       <CardRepositories
-        title="Crwn-Clothing - Ecommerce "
-        description="Projeto realizado durante uma seção do curso Zero To Mastery-ZTM"
+        title="Landing Page - Dermato"
+        description="Aplicação desenvolvida em ReactJS para uma clínica dermatológica; onde ela apresenta seu portfólio de serviços e consegue captar os dados da pessoa que agendou uma consulta"
         languages={projects.project4.languages}
         technologies={projects.project4.technologies}
         libs={projects.project4.libs}
       >
         <Button>
-          <a
-            href="https://creative-bublanina-c7818b.netlify.app/"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href="http://dermato.vercel.app/" target="_blank" rel="noreferrer">
             Veja o Projeto
           </a>
         </Button>
