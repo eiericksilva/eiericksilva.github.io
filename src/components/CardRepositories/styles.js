@@ -5,8 +5,9 @@ export const Container = styled.div`
   margin: 20px auto;
   height: auto;
   padding: 70px;
-  background-color: rgb(10, 10, 18);
   border-radius: 15px;
+  background-color: #001e3c;
+  border: 1px solid #26435f;
 
   @media (max-width: 768px) {
     width: 100%;
@@ -19,7 +20,7 @@ export const Header = styled.header`
   margin-bottom: 20px;
   p {
     font-size: 1.2rem;
-    color: pink;
+    color: #f2f2f2;
   }
   h1 {
     font-size: 2rem;

@@ -12,18 +12,22 @@ export const Button = styled.button`
   border-radius: 15px;
   border: none;
 
+  &:hover {
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #66b2ff;
+    color: #fff;
+  }
+
   a {
     text-decoration: none;
     font-size: 1rem;
     line-height: 1.5;
     color: #191d3a;
     z-index: 5;
-  }
 
-  &:hover {
-    cursor: pointer;
-    transition: 0.3s;
-    background-color: #ffd1aa;
-    color: #000000;
+    &:hover {
+      color: #fff;
+    }
   }
 `;

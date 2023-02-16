@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
   width: 100%;
   height: 713px;
-  background-color: #0a0a12;
+  background-color: #142e47;
 `;
 
 export const ContainerMenu = styled.div`
@@ -12,7 +12,10 @@ export const ContainerMenu = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border-bottom: 1px solid #ffd1aa;
+  background-color: #020e1b;
+  backdrop-filter: blur(3px);
+  z-index: 10;
+  top: 0;
 
   svg {
     display: none;
@@ -66,9 +69,9 @@ export const Link = styled.a`
 
   &:hover {
     cursor: pointer;
-    background-color: #ffd1aa;
-    color: #000000;
-    transition: 0.3s;
+    background-color: #142e47;
+    color: #f2f2f2;
+    border-radius: 15px;
   }
   @media (max-width: 768px) {
     font-size: 0.8rem;
@@ -79,7 +82,7 @@ export const Main = styled.main`
   width: 100%;
   height: 100%;
   padding: 150px 70px;
-  margin: 100px 0;
+  margin: 70px 0;
   position: relative;
 
   img {

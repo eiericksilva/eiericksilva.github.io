@@ -1,11 +1,12 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-  background-color: #202020;
+  /* background-color: #202020; */
   width: 100%;
   height: auto;
   padding: 30px 70px;
 
+  background-color: #0a1929;
   @media (max-width: 768px) {
     padding: 10px;
   }

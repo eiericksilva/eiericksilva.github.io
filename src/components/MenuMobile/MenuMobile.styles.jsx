@@ -23,6 +23,7 @@ export const Container = styled.div`
     position: absolute;
     top: 1.4rem;
     right: 5.9rem;
+    z-index: 20;
   }
 
   nav {
