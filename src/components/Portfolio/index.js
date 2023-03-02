@@ -39,15 +39,15 @@ const Portifolio = () => {
     <P.Wrapper id="Projetos">
       <h2 className="title">Projetos</h2>
       <CardRepositories
-        title="Calculadora ReactJS"
-        description="Projeto de uma calculadora desenvolvido durante o Bootcamp da DIO (Digital Innovation One"
+        title="Açaí Delivery"
+        description="Projeto de Delivery de açaí desenvolvido utilizando ReactJS"
         languages={projects.project1.languages}
         technologies={projects.project1.technologies}
         libs={projects.project1.libs}
       >
         <Button>
           <a
-            href="https://calc-react-nu.vercel.app/"
+            href="https://acaidelivery.vercel.app/"
             target="_blank"
             rel="noreferrer"
           >
