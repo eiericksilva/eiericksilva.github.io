@@ -37,7 +37,7 @@ const Portifolio = () => {
 
   return (
     <P.Wrapper id="Projetos">
-      <h2 className="title">Projetos</h2>
+      <h2 className="title">Cases de estudo</h2>
       <CardRepositories
         title="Açaí Delivery"
         description="Projeto de Delivery de açaí desenvolvido utilizando ReactJS"
