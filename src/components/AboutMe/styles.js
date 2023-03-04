@@ -87,8 +87,10 @@ export const Photo = styled.img`
   object-fit: cover;
 `;
 
-export const Main = styled.p`
-  line-height: 1.7rem;
-  margin-bottom: 20px;
+export const Main = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
   color: #fff;
+  line-height: 1.7rem;
 `;

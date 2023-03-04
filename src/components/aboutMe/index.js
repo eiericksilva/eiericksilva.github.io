@@ -12,13 +12,27 @@ const AboutMe = () => {
             <A.Title>Sobre Mim</A.Title>
           </A.ContainerTitle>
           <A.Main>
-            Olá, me chamo Erick Silva e estou cursando Análise e Desenvolvimento
-            de Sistemas pela Faculdade Estácio de Sá. Tenho focado em me
-            aperfeiçoar como Desenvolvedor Front-End através de alguns projetos
-            pessoais que você pode ver aqui. Sou uma pessoa organizada e gosto
-            de trabalhar em equipe, podendo assim colaborar para a resolução de
-            problemas durante o desenvolvimento de sistemas. Me coloco a
-            disposição para mais informações.
+            <p>
+              Sou um estudante de Análise e Desenvolvimento de Sistemas(ADS),
+              atualmente cursando o 4º período, com um forte interesse em
+              Desenvolvimento de Software Front-End. Há aproximadamente um ano,
+              comecei a adquirir conhecimento em ReactJS, uma biblioteca
+              JavaScript popular para construção de interfaces de usuário.
+            </p>
+            <p>
+              Sou uma pessoa organizada e gosto de trabalhar em equipe, podendo
+              colaborar para a resolução de problemas durante o desenvolvimento
+              de sistemas. Meu objetivo é contribuir para a criação de produtos
+              de qualidade que atendam às necessidades dos usuários.
+            </p>
+            <p>
+              Sempre estou em busca de aprimorar minhas habilidades e aprender
+              novas tecnologias. Fora do ambiente de trabalho, mantenho esse
+              portfólio pessoal para mostrar meus projetos e habilidades. Caso
+              queira entrar em contato comigo, fique à vontade para utilizar
+              meus contatos que estão no final dessa página.Estou disponível
+              para mais informações e oportunidades de trabalho.
+            </p>
           </A.Main>
 
           <Button>

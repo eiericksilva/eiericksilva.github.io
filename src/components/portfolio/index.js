@@ -56,6 +56,19 @@ const Portifolio = () => {
         </Button>
       </CardRepositories>
       <CardRepositories
+        title="Landing Page - Dermato"
+        description="Aplicação desenvolvida em ReactJS para uma clínica dermatológica; onde ela apresenta seu portfólio de serviços e consegue captar os dados da pessoa que agendou uma consulta"
+        languages={projects.project4.languages}
+        technologies={projects.project4.technologies}
+        libs={projects.project4.libs}
+      >
+        <Button>
+          <a href="http://dermato.vercel.app/" target="_blank" rel="noreferrer">
+            Veja o Projeto
+          </a>
+        </Button>
+      </CardRepositories>
+      <CardRepositories
         title="wiki-github"
         description="Projeto de uma wiki desenvolvido durante o Bootcamp da DIO (Digital Innovation One)"
         languages={projects.project2.languages}
@@ -85,19 +98,6 @@ const Portifolio = () => {
             target="_blank"
             rel="noreferrer"
           >
-            Veja o Projeto
-          </a>
-        </Button>
-      </CardRepositories>
-      <CardRepositories
-        title="Landing Page - Dermato"
-        description="Aplicação desenvolvida em ReactJS para uma clínica dermatológica; onde ela apresenta seu portfólio de serviços e consegue captar os dados da pessoa que agendou uma consulta"
-        languages={projects.project4.languages}
-        technologies={projects.project4.technologies}
-        libs={projects.project4.libs}
-      >
-        <Button>
-          <a href="http://dermato.vercel.app/" target="_blank" rel="noreferrer">
             Veja o Projeto
           </a>
         </Button>
