@@ -11,6 +11,7 @@ const Blog = () => {
         display: "flex",
         flexDirection: "column",
         justifyContent: "center",
+        padding: "10px",
       }}
     >
       <h1>BLOG EM CONSTRUÇÃO...</h1>
