@@ -16,7 +16,7 @@ export const Main = styled.main`
     position: absolute;
     opacity: 10%;
     right: 50px;
-    top: -100px;
+    top: 50px;
     width: 600px;
     height: 600px;
     pointer-events: none;

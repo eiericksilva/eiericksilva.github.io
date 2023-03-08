@@ -11,20 +11,6 @@ export const ContainerMenu = styled.div`
   backdrop-filter: blur(3px);
   z-index: 10;
   top: 0;
-
-  svg {
-    display: none;
-  }
-
-  @media (max-width: 960px) {
-    .menu {
-      display: none;
-    }
-
-    svg {
-      display: block;
-    }
-  }
 `;
 export const Logo = styled.h3`
   font-family: "Great Vibes", cursive;
