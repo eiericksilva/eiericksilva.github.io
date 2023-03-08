@@ -1,21 +1,22 @@
 import React from "react";
 import GlobalStyle from "./css/global";
-import Header from "./components/Header/index";
-import AboutMe from "./components/AboutMe/index";
-import Portifolio from "./components/Portfolio";
-import Contacts from "./components/Contacts";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Footer } from "./components/Footer";
+import Menu from "./components/Menu/Menu";
+import Home from "./pages/Home/Home";
+import Blog from "./pages/Blog/Blog";
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <AboutMe />
-      <Portifolio />
-      <Contacts />
-      <Footer />
+    <BrowserRouter>
       <GlobalStyle />
-    </div>
+      <Menu />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/blog" element={<Blog />} />
+      </Routes>
+      <Footer />
+    </BrowserRouter>
   );
 }
 
