@@ -7,18 +7,20 @@ const GlobalStyle = createGlobalStyle`
         padding: 0;
         box-sizing: border-box;
         color: #FFFFFF;
-        font-family: 'Heebo', sans-serif;
+        font-family: "Poppins", sans-serif;
     }
     html {
         scroll-behavior: smooth;
         width: 100%;
     }
+
+    body {
+        background-color: #0A1929;
+    }
     
     h1 {
         font-size: 4rem;
-        letter-spacing: 4px;
         font-weight: 700;
-        font-family: "Oswald",sans-serif;
         line-height: 1.2;
         margin-bottom: 30px;
     }
@@ -26,12 +28,6 @@ const GlobalStyle = createGlobalStyle`
     h2 {
         font-size: 1.2rem;
         font-weight: 400;
-        letter-spacing: 8px;
-        font-family: "Oswald",sans-serif;
-    }
-
-    p {
-        font-weight: 100;
     }
 
     a {

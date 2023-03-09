@@ -3,15 +3,16 @@ import AboutMe from "../../components/AboutMe";
 import Contacts from "../../components/Contacts";
 import Header from "../../components/Header";
 import Portifolio from "../../components/Portfolio";
+import { Container } from "./Home.styles";
 
 const Home = () => {
   return (
-    <div style={{ minHeight: "100vh" }}>
+    <Container>
       <Header />
       <AboutMe />
       <Portifolio />
       <Contacts />
-    </div>
+    </Container>
   );
 };
 
