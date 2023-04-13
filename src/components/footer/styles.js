@@ -16,7 +16,6 @@ export const Container = styled.div`
   align-items: center;
   justify-content: space-around;
   margin-bottom: 50px;
-  border: 1px solid red;
 `;
 
 export const Icon = styled.div``;
