@@ -8,6 +8,7 @@ const GlobalStyle = createGlobalStyle`
         box-sizing: border-box;
         color: #FFFFFF;
         font-family: "Poppins", sans-serif;
+       /*  border: 1px solid yellow; */
     }
     html {
         scroll-behavior: smooth;

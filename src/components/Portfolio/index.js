@@ -33,6 +33,17 @@ const Portifolio = () => {
         "Vite",
       ],
     },
+
+    project5: {
+      languages: ["Wordpress"],
+      technologies: ["WordPress"],
+      libs: [
+        "Elementor",
+        "Editor Clássico",
+        "Joinchat",
+        "Royal Elementor Addons",
+      ],
+    },
   };
 
   return (
@@ -86,15 +97,15 @@ const Portifolio = () => {
         </Button>
       </CardRepositories>
       <CardRepositories
-        title="pokeapi"
-        description="Projeto realizado para consumo de API e criação da interface"
-        languages={projects.project3.languages}
-        technologies={projects.project3.technologies}
-        libs={projects.project3.libs}
+        title="Landing Page de Serviços Elétricos"
+        description="Projeto desenvolvido em Wordpress para um prestador de serviços elétricos"
+        languages={projects.project5.languages}
+        technologies={projects.project5.technologies}
+        libs={projects.project5.libs}
       >
         <Button>
           <a
-            href="https://pokeapi-topaz-seven.vercel.app/"
+            href="https://eiericksilva.com/escservicoseletricos/"
             target="_blank"
             rel="noreferrer"
           >

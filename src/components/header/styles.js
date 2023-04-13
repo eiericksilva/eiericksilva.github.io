@@ -6,6 +6,12 @@ export const Wrapper = styled.div`
   background-color: #142e47;
 `;
 
+export const Description = styled.p`
+  font-size: 1.3rem;
+  max-width: 80%;
+  margin-bottom: 20px;
+`;
+
 export const Main = styled.main`
   width: 100%;
   height: 100%;

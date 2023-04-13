@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
   background-color: #00060b;
   width: 100%;
-  height: 120px;
+  min-height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,29 +11,28 @@ export const Wrapper = styled.div`
 `;
 
 export const Container = styled.div`
-  width: auto;
-  height: auto;
+  min-width: 30%;
   display: flex;
-  flex-direction: row;
-  margin-bottom: 20px;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 50px;
+  border: 1px solid red;
 `;
 
-export const Icon = styled.div`
-  width: 40px;
-  height: 40px;
-  padding: 10px;
-`;
+export const Icon = styled.div``;
 
 export const Link = styled.a`
-  width: 50px;
-  height: 50px;
-
   svg {
-    width: 40px;
-    height: 40px;
-  }
-  :hover {
-    cursor: pointer;
+    width: 50px;
+    height: 50px;
+
+    :hover {
+      cursor: pointer;
+      transform: scale(1.6);
+      transform: translateY(-10px);
+
+      z-index: 10;
+    }
   }
 `;
 

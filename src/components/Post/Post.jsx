@@ -1,3 +1,4 @@
+import { useFirstPrismicDocument } from "@prismicio/react";
 import React from "react";
 import {
   ContainerInfo,
@@ -8,6 +9,8 @@ import {
 } from "./Post.styles";
 
 const Post = ({ title, subtitle, name, date, bannerPost }) => {
+  const [document] = useFirstPrismicDocument();
+  console.log(document);
   return (
     <Wrapper>
       <ContainerLeft>
