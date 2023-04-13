@@ -11,6 +11,9 @@ const Contacts = () => {
         <C.SubTitle>Endereço</C.SubTitle>
         <C.Text>Pingo D'Água, Minas Gerais - Brasil</C.Text>
 
+        <C.SubTitle>WhatsApp</C.SubTitle>
+        <C.Text>(33) 99950-1882</C.Text>
+
         <C.SubTitle>Email</C.SubTitle>
         <C.Text>ericksilvaredes@gmail.com</C.Text>
       </C.Contacts>
