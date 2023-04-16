@@ -10,6 +10,16 @@ const GlobalStyle = createGlobalStyle`
         font-family: "Poppins", sans-serif;
        /*  border: 1px solid yellow; */
     }
+
+    :root {
+        --color-white: #FFFFFF;
+        --color-grey-tabby: #616161;
+        --color-midnight-gray: #444444;
+        --color-tank-grey: #333333;
+        --color-graphit: #202020;
+        --color-cinza: #111111;
+    }
+    
     html {
         scroll-behavior: smooth;
         width: 100%;

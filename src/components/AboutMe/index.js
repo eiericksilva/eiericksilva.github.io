@@ -13,11 +13,8 @@ const AboutMe = () => {
           </A.ContainerTitle>
           <A.Main>
             <p>
-              Sou um estudante de Análise e Desenvolvimento de Sistemas(ADS),
-              atualmente cursando o 4º período, com um forte interesse em
-              Desenvolvimento de Software Front-End. Há aproximadamente um ano,
-              comecei a adquirir conhecimento em ReactJS, uma biblioteca
-              JavaScript popular para construção de interfaces de usuário.
+              Sou um estudante de Análise e Desenvolvimento de Sistemas(ADS).
+              Faço freelancer na área de Desenvolvimento de Software
             </p>
             <p>
               Sou uma pessoa organizada e gosto de trabalhar em equipe, podendo
