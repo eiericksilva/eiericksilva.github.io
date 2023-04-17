@@ -8,7 +8,6 @@ const GlobalStyle = createGlobalStyle`
         box-sizing: border-box;
         color: #FFFFFF;
         font-family: "Poppins", sans-serif;
-       /*  border: 1px solid yellow; */
     }
 
     :root {
@@ -18,6 +17,7 @@ const GlobalStyle = createGlobalStyle`
         --color-tank-grey: #333333;
         --color-graphit: #202020;
         --color-cinza: #111111;
+        --color-cinza_plus: #262626;
     }
     
     html {

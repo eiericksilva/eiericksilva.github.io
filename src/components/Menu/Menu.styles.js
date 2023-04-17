@@ -7,7 +7,7 @@ export const ContainerMenu = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #020e1b;
+  background-color: #262626;
   backdrop-filter: blur(3px);
   z-index: 10;
   top: 0;

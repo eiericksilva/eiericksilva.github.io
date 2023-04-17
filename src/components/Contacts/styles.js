@@ -1,27 +1,23 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-  background-color: #0a1929;
+  background-color: #202020;
   width: 100%;
-  height: 450px;
+  min-height: 300px;
   padding: 50px 70px;
   display: flex;
-  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
     flex-direction: column;
-    padding: 20px 30px;
+    margin: 0;
+    padding: 0;
+    align-items: start;
+    justify-content: space-between;
   }
 `;
-export const Contacts = styled.div`
-  width: 40%;
-  @media (max-width: 768px) {
-    width: 100%;
-  }
-`;
-export const DivForm = styled.div`
-  width: 60%;
-`;
+
 export const Title = styled.h2`
   font-family: "Oswald", sans-serif;
   font-size: 30px;
@@ -46,13 +42,12 @@ export const Text = styled.p`
   line-height: 20px;
   margin-bottom: 1.5rem;
 `;
-export const wrapperButton = styled.div`
+export const ContainerInfo = styled.div`
   display: flex;
-  width: 100%;
-  justify-content: right;
-  align-items: flex-end;
+  flex-direction: column;
+  padding: 20px;
 
-  @media (max-width: 768px) {
-    justify-content: center;
+  @media (max-width: 1024px) {
+    padding: 10px;
   }
 `;
