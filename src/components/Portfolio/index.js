@@ -12,7 +12,7 @@ const Portifolio = () => {
     project2: {
       languages: ["Javascript"],
       technologies: ["ReactJS"],
-      libs: ["axios", "styled-components"],
+      libs: ["react-icons", "styled-components"],
     },
     project3: {
       languages: ["Javascript"],
@@ -49,23 +49,7 @@ const Portifolio = () => {
   return (
     <P.Wrapper id="Projetos">
       <h2 className="title">Cases de estudo</h2>
-      <CardRepositories
-        title="Açaí Delivery"
-        description="Projeto de Delivery de açaí desenvolvido utilizando ReactJS"
-        languages={projects.project1.languages}
-        technologies={projects.project1.technologies}
-        libs={projects.project1.libs}
-      >
-        <Button>
-          <a
-            href="https://acaidelivery.vercel.app/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Veja o Projeto
-          </a>
-        </Button>
-      </CardRepositories>
+
       <CardRepositories
         title="Landing Page - Dermato"
         description="Aplicação desenvolvida em ReactJS para uma clínica dermatológica; onde ela apresenta seu portfólio de serviços e consegue captar os dados da pessoa que agendou uma consulta"
@@ -80,15 +64,15 @@ const Portifolio = () => {
         </Button>
       </CardRepositories>
       <CardRepositories
-        title="wiki-github"
-        description="Projeto de uma wiki desenvolvido durante o Bootcamp da DIO (Digital Innovation One)"
+        title="Form Decolar.com [Design]"
+        description="Projeto desenvolvido para clonar formulário da Decolar.com. Formulário Adaptável para Desktop, Table e Celulares"
         languages={projects.project2.languages}
         technologies={projects.project2.technologies}
         libs={projects.project2.libs}
       >
         <Button>
           <a
-            href="https://wiki-github-inky.vercel.app/"
+            href="https://ticket-form-vert.vercel.app/"
             target="_blank"
             rel="noreferrer"
           >
@@ -106,6 +90,23 @@ const Portifolio = () => {
         <Button>
           <a
             href="https://eiericksilva.com/escservicoseletricos/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Veja o Projeto
+          </a>
+        </Button>
+      </CardRepositories>
+      <CardRepositories
+        title="Açaí Delivery"
+        description="Projeto de Delivery de açaí desenvolvido utilizando ReactJS"
+        languages={projects.project1.languages}
+        technologies={projects.project1.technologies}
+        libs={projects.project1.libs}
+      >
+        <Button>
+          <a
+            href="https://acaidelivery.vercel.app/"
             target="_blank"
             rel="noreferrer"
           >
