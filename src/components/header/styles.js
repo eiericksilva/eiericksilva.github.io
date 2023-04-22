@@ -2,14 +2,8 @@ import styled from "styled-components";
 
 export const Wrapper = styled.div`
   width: 100%;
-  height: 713px;
+  height: auto;
   background-color: #111111;
-`;
-
-export const Description = styled.p`
-  font-size: 1.3rem;
-  max-width: 80%;
-  margin-bottom: 20px;
 `;
 
 export const Main = styled.main`
@@ -18,9 +12,13 @@ export const Main = styled.main`
   padding: 150px 70px;
   position: relative;
 
+  p {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
   img {
     position: absolute;
-    opacity: 10%;
+    opacity: 5%;
     right: 50px;
     top: 50px;
     width: 600px;
@@ -39,19 +37,5 @@ export const Main = styled.main`
     flex-direction: column;
     justify-content: center;
     text-align: center;
-  }
-`;
-
-export const Title = styled.h1`
-  @media (max-width: 768px) {
-    font-size: 1.2rem;
-    letter-spacing: 4px;
-  }
-`;
-
-export const Subtitle = styled.h2`
-  @media (max-width: 768px) {
-    font-size: 0.6rem;
-    letter-spacing: 6px;
   }
 `;

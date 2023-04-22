@@ -7,7 +7,7 @@ const GlobalStyle = createGlobalStyle`
         padding: 0;
         box-sizing: border-box;
         color: #FFFFFF;
-        font-family: "Poppins", sans-serif;
+        font-family: "Raleway", sans-serif;
     }
 
     :root {
@@ -27,18 +27,29 @@ const GlobalStyle = createGlobalStyle`
 
     body {
         background-color: #0A1929;
+        
     }
     
     h1 {
-        font-size: 4rem;
+        font-size: 56px;
         font-weight: 700;
-        line-height: 1.2;
         margin-bottom: 30px;
+        font-family: 'Bebas Neue', cursive;
+        letter-spacing: 10px;
     }
 
     h2 {
-        font-size: 1.2rem;
+        font-size: 32px;
         font-weight: 400;
+        font-family: 'Bebas Neue', cursive;
+        letter-spacing: 5px;
+    }
+
+    h3 {
+        font-size: 60px;
+        font-weight: 400;
+        font-family: 'Bebas Neue', cursive;
+        letter-spacing: 5px;
     }
 
     a {

@@ -31,7 +31,6 @@ const AboutMe = () => {
               para mais informações e oportunidades de trabalho.
             </p>
           </A.Main>
-
           <Button>
             <a download href={Resume} rel="noreferrer">
               DOWNLOAD CV
@@ -39,9 +38,7 @@ const AboutMe = () => {
           </Button>
         </A.Info>
         <A.WrapperPhoto>
-          <A.BorderPhoto>
-            <A.Photo src={FotoPerfil} />
-          </A.BorderPhoto>
+          <A.Photo src={FotoPerfil} />
         </A.WrapperPhoto>
       </A.Container>
     </A.Wrapper>
