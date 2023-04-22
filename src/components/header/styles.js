@@ -12,6 +12,9 @@ export const Main = styled.main`
   padding: 150px 70px;
   position: relative;
 
+  h1 {
+    border: 1px solid yellow;
+  }
   p {
     font-size: 24px;
     margin-bottom: 20px;
@@ -37,5 +40,16 @@ export const Main = styled.main`
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    padding: 10px;
+
+    h1 {
+      font-size: 46px;
+    }
+    h2 {
+      font-size: 22px;
+    }
+    p {
+      font-size: 16px;
+    }
   }
 `;
