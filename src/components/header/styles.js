@@ -12,9 +12,6 @@ export const Main = styled.main`
   padding: 150px 70px;
   position: relative;
 
-  h1 {
-    border: 1px solid yellow;
-  }
   p {
     font-size: 24px;
     margin-bottom: 20px;
